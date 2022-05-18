@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Terdapat beberapa karakter spesial seperti copyright symbol © yang tidak termasuk ke dalam standar kelompok ASCII characters, di mana ASCII characters hanya menyediakan karakter seperti huruf, nomor, dan beberapa simbol dasar. Karakter lain seperti lebih dari (>) atau kurang dari (<) walaupun tersedia dalam ASCII character, karakter tersebut tidak dapat digunakan secara langsung sebagai konten pada HTML. Hal tersebut dikarenakan karakter tersebut akan terbaca sebagai sebuah tag. -->
+    <!-- Untuk menampilkan karakter seperti yang disebutkan tadi, HTML memerlukan sebuah “escaped” karakter. Escaping artinya adalah tidak menuliskan karakter itu sendiri, melainkan menggantinya dengan nilai numeric atau character reference pada karakternya.
+
+Terdapat dua cara untuk melakukannya, yakni dengan menetapkan nilai numerik (numeric entity) atau menggunakan nama singkatan yang sudah ditetapkan untuk masing-masing karakternya (named entity). Semua referensi karakter dimulai dengan “&” dan diakhiri dengan “;”. -->
+    <p>Website build by Pasifikus Alfino &copy;2022</p>
+    <p>Website build by Pasifikus Alfino &#169;2022</p>
+    <table border="">
+      <tr>
+        <th>Karakter</th>
+        <th>deskripsi</th>
+        <th>named entity</th>
+        <th>numeric entity</th>
+      </tr>
+      <tr>
+        <td>&</td>
+        <td>ampersand</td>
+        <td>&amp;</td>
+        <td>&#038;</td>
+      </tr>
+    </table>
+  </body>
+</html>
